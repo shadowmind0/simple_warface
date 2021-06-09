@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="gamesdk">
+      <UniqueIdentifier>{3c44b64d-9044-441c-b5a2-3423ed0897d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hook">
+      <UniqueIdentifier>{45131bec-3f7e-4fe7-8a9a-7666a299a7df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="alternativecrt">
+      <UniqueIdentifier>{604567d9-dfe1-4264-8834-2c7acd694881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gamesdk\reverse">
+      <UniqueIdentifier>{f8ce6562-ce7f-44c4-a5e5-b14cc7a6f170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gamesdk\define">
+      <UniqueIdentifier>{81a44129-ac90-435c-ac0a-c5ffe794cc63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gamesdk\classes">
+      <UniqueIdentifier>{3fe76cf2-79e4-4063-8fe7-3daa98166eec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nimport">
+      <UniqueIdentifier>{7bcc1780-2310-40bb-9072-eafe7e6b80df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\stdafx.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\cvmthook.hpp">
+      <Filter>hook</Filter>
+    </ClInclude>
+    <ClInclude Include="alternativecrt\mincrt.h">
+      <Filter>alternativecrt</Filter>
+    </ClInclude>
+    <ClInclude Include="gamesdk\define.hpp">
+      <Filter>gamesdk\define</Filter>
+    </ClInclude>
+    <ClInclude Include="gamesdk\offsets.hpp">
+      <Filter>gamesdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="gamesdk\struct.hpp">
+      <Filter>gamesdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="gamesdk\glow.hpp">
+      <Filter>gamesdk\reverse</Filter>
+    </ClInclude>
+    <ClInclude Include="nimport\limporter.hpp">
+      <Filter>nimport</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main\dllmain.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="alternativecrt\mincrt.cpp">
+      <Filter>alternativecrt</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
